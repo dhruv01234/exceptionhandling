@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-import javax.print.DocFlavor.STRING;
 class InvalidCountryException extends Exception{
     public InvalidCountryException(String s){
         super(s);
