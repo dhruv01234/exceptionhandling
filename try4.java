@@ -8,9 +8,9 @@ class InvalidCountryException extends Exception{
 public class try4 {
     public static void main(String[] args) throws InvalidCountryException{
         Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        String s1[] = s.split(",");
-        if (!s1[1].equalsIgnoreCase("india")) {
+        String s = sc.next().split(",")[1];
+        
+        if (!s.equalsIgnoreCase("india")) {
             throw new InvalidCountryException("User outside india can not be registered");
         } else {
             System.out.println("User registration done successfully");
