@@ -14,6 +14,6 @@ class mathoperation {
             sum += a[i];
         }
         avg = sum/args.length;
-        System.out.println("sum = "+sum+"\n"+"avg = "+avg);
+        System.out.println("sum =  "+sum+"\n"+"avg = "+avg);
     }
 }
